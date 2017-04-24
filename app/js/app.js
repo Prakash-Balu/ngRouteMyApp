@@ -24,11 +24,11 @@ var app = angular.module('motiveReports', ['ui.router', 'ngRoute' ]);
 app.config(function($routeProvider) {
   $routeProvider.
     when('/signin', {
-        templateUrl: 'signin.html',
+        templateUrl: 'app/template/signin.html',
 		controller: 'loginCtrl'
     }).
     when('/home', {
-        templateUrl: 'home.html'
+        templateUrl: 'app/template/home.html'
     }).
     otherwise({
         redirectTo: '/signin'
