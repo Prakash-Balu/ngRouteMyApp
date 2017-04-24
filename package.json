@@ -1,0 +1,19 @@
+{
+  "name": "sampleprjt",
+  "version": "1.0.0",
+  "description": "Angular SignIn Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "http-server": "^0.9.0",
+    "jquery": "^1.11.0"
+  }
+}
